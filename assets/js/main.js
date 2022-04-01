@@ -8,16 +8,14 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 const userWord = prompt(`Type a word`);
 
-function tenet (userWord) {
-    let reversWord;
-    for(i = userWord.length - 1; i >= 0; i--){
-        reversWord = userWord[i];
-        console.log(reversWord);
-    }
-    
+function tenet (word) {
+    let reversWord = ''
+    for(i = word.length -1; i >= 0; i--){
+        reversWord += word[i];
+    } 
+        return reversWord == word 
 }
 
-// for(i = userWord.length - 1; i >= 0; i--){
-//      console.log(userWord[i]);
-    
-// }
+let result = tenet(userWord)
+console.log(result)
+
