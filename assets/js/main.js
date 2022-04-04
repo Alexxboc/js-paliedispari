@@ -4,7 +4,7 @@ Chiedere all’utente di inserire una parola.
 Creare una funzione per capire se la parola inserita è palindroma
 */
 
-// Chiedere all'utente di scrivere una parola
+// // Chiedere all'utente di scrivere una parola
 // const userWord = prompt(`Type a word`);
 
 // // Creare una funzione per decidere se la parola è palindroma
@@ -24,6 +24,31 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 // // Stampare in console il risultato
 // console.log(result)
+
+// // Correzione Fabio
+
+// function reversWord(word){
+//     return word.split('').reverse().join('')
+// }
+
+// function is_palindrom(word) {
+//     const reversedWord = reverseWord(word)
+//     if (reversedWord === word) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+ 
+// const word = 'ada'
+// const word_2 = 'lovelace'
+
+// if(is_palindrom(word)){
+//     console.log(word, 'Is palindom')
+// } else {
+//     console.log(word, 'It not palindom')
+// }
 
 
 /* 
