@@ -5,25 +5,25 @@ Creare una funzione per capire se la parola inserita è palindroma
 */
 
 // Chiedere all'utente di scrivere una parola
-const userWord = prompt(`Type a word`);
+// const userWord = prompt(`Type a word`);
 
-// Creare una funzione per decidere se la parola è palindroma
-function tenet (word) {
-    // Dichiarare una varibile con stringa vuota per la parola letta al contrario
-    let reversWord = ''
-    // Creare un ciclo for con indice di decremento che legga la parola al contrario
-    for(i = word.length -1; i >= 0; i--){
-    // Trasformare gli indici letti al contrario in una parola 
-        reversWord += word[i];
-    } 
-        return reversWord == word 
-}
+// // Creare una funzione per decidere se la parola è palindroma
+// function tenet (word) {
+//     // Dichiarare una varibile con stringa vuota per la parola letta al contrario
+//     let reversWord = ''
+//     // Creare un ciclo for con indice di decremento che legga la parola al contrario
+//     for(i = word.length -1; i >= 0; i--){
+//     // Trasformare gli indici letti al contrario in una parola 
+//         reversWord += word[i];
+//     } 
+//         return reversWord == word 
+// }
 
-// Dichiarare una variabile per il risultato
-let result = tenet(userWord)
+// // Dichiarare una variabile per il risultato
+// let result = tenet(userWord)
 
-// Stampare in console il risultato
-console.log(result)
+// // Stampare in console il risultato
+// console.log(result)
 
 
 /* 
@@ -82,11 +82,11 @@ function isEven (numbersSum){
 }
 
 // Creare le condizioni per dichiarare il vincitore
-if (isEven(sum) == true & even_odd == 'pari'){
+if (isEven(sum) == true && even_odd == 'pari'){
     console.log(`Il numero ${sum} è pari vince l'utente`);
-} else if (isEven(sum) == false & even_odd == 'dispari') {
+} else if (isEven(sum) == false && even_odd == 'dispari') {
     console.log(`Il numero ${sum} è dispari vince l'utente`)
-} else if (isEven(sum) == true & even_odd != 'pari'){
+} else if (isEven(sum) == true && even_odd != 'pari'){
     console.log(`Il numero ${sum} è pari vince il PC`)
 } else {
     console.log(`Il numero ${sum} è dispari vince il PC`)
